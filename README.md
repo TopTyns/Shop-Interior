@@ -1,5 +1,5 @@
 <h1 align="center"> Shop Interior </h1>
-<a href="https://toptyns.github.io/Shop_website/">SITE</a>
+<a href="https://toptyns.github.io/Shop-Interior/">SITE</a>
 <h2>Technologies</h2>
 <ul>
   <li>HTML | 48.2%</li>
