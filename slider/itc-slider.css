@@ -1,0 +1,70 @@
+.itc-slider {
+  position: relative;
+}
+
+.itc-slider__wrapper {
+  overflow: hidden;
+}
+
+.itc-slider__items {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+.itc-slider__transition-none {
+  transition: none;
+}
+
+.itc-slider__item {
+  flex: 0 0 100%;
+  max-width: 370px;
+  user-select: none;
+  will-change: transform;
+}
+
+/* кнопки влево и вправо */
+.itc-slider__btn {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 0, 0, 0);
+  text-align: center;
+  border: none;
+
+  cursor: pointer;
+}
+
+.itc-slider__btn_hide {
+  display: none;
+}
+
+.itc-slider__btn_prev {
+  left: -120px;
+}
+
+.itc-slider__btn_next {
+  right: -120px;
+}
+
+
+.itc-slider__btn::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.itc-slider__btn_prev::before {
+  background-image: url("../images/slider/arrow1.svg");
+}
+
+.itc-slider__btn_next::before {
+  background-image: url("../images/slider/arrow2.svg");
+}
