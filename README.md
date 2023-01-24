@@ -9,7 +9,7 @@
 </ul>
 <h2>Third Party Resources</h2>
 <ul>
-  <a href="https://github.com/itchief/ui-components/tree/master/itc-slider">Slider</a>
+ <li><a href="https://github.com/itchief/ui-components/tree/master/itc-slider">Slider</a></li>
 </ul>
 <h2>Images</h2>
 <img src="images/readme/1.png" alt="page">
